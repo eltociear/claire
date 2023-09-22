@@ -46,7 +46,7 @@ These annotations are released in two different forms:
 * For a classification task: one of three discrete class labels IMPLAUSIBLE, NEUTRAL or PLAUSIBLE
 
 ## Data Format
-For every data split (train, dev, test), there are three seperate TSV files:
+For every data split (train, dev, test), there are three separate TSV files:
 * `{split}_data.tsv`: contains the instances themselves without annotation
 * `{split}_scores.tsv`: contains the annotations as continuous plausibility scores between 1 and 5
 * `{split}_labels.tsv`: contains the annoations as discrete plausiblity classes
